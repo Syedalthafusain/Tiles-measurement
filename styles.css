@@ -6,7 +6,7 @@ body{
 }
 .wrapper{
     width: 70em;
-    height: 40em;
+    height: 100vh;
     background-color: aquamarine;
     border-radius: 1em;
     border-color: black;
@@ -47,6 +47,21 @@ input{
 
 }
 #calculatebtn{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: magenta;
+}
+.wrapper .tile-24x12{
+   background-color: burlywood;
+   width: 40em;
+   height: 30em;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   margin-top: 20px;
+}
+#calculatebtn2{
     width: 200px;
     height: 30px;
     border-radius: 5px;
